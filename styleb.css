@@ -1,0 +1,56 @@
+body {
+    background: rgb(36, 0, 0);
+    background: linear-gradient(90deg, rgba(36, 0, 0, 0.6642335766423357) 0%, rgba(42, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    background: white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation-name: animate1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate1 {
+    from {
+        top: 0;
+    }
+    to {
+        top: -200px;
+    }
+}
+
+@keyframes animate1 {
+    0% {
+        left: 0;
+        top: 0;
+        background: red;
+    }
+    25% {
+        left: 300px;
+        top: 0;
+        background: orange;
+    }
+    50% {
+        left: 300px;
+        top: 300px;
+        background: orangered;
+    }
+    75% {
+        left: 0px;
+        top: 300px;
+        background: salmon;
+    }
+    100% {
+        left: 0;
+        top: 0%;
+        background: tomato;
+    }
+}

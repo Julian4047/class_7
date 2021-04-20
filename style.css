@@ -12,8 +12,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background: rgb(131, 58, 180);
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(29, 253, 127, 0.44253326330532217) 52%, rgba(252, 176, 69, 1) 100%);
-    background-image: url(./backgroundc2-01.jpg);
+    background: linear-gradient(117deg, rgba(131, 58, 180, 1) 0%, rgba(50, 255, 140, 1) 52%, rgba(252, 176, 69, 1) 100%);
 }
 
 .wrapper {
@@ -38,6 +37,7 @@ a {
 
 a:hover {
     background: blanchedalmond;
+    color: grey;
 }
 
 .slider-nav ul {
